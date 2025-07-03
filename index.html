@@ -7,7 +7,8 @@
     <title>My Portfolio</title>
 </head>
 
-<body>
+<body style="margin: 0 100px;">
+
 
 
 
@@ -16,53 +17,69 @@
 
     <h1 align="center">Welcome to the My Portfolio page </h1>
     <nav>
-        <table align="center" border="0">
+        <table width="100%" border="0">
             <tr>
-                <td>
-                    <font size="6"><a href="#about">About Me</a></font>
+                <!-- Left side: Name -->
+                <td align="left">
+                    <h3><span style="color: red;">R@k!bu1</span> Islam</h3>
                 </td>
-                <!-- three non-breaking spaces -->
-                <td>&nbsp;&nbsp;&nbsp;</td>
-                <td>
-                    <font size="6"><a href="#education">Education</a></font>
-                </td>
-                <td>&nbsp;&nbsp;&nbsp;</td>
-                <td>
-                    <font size="6"><a href="#contact">Contact</a></font>
-                </td>
-                <td>&nbsp;&nbsp;&nbsp;</td>
-                <td>
-                    <font size="6"><a href="#interests">Interests</a></font>
+
+                <!-- Right side: Navigation Bar -->
+                <td align="right">
+                    <font size="4"><a href="#about">About Me</a></font>&nbsp;&nbsp;&nbsp;
+                    <font size="4"><a href="#education">Education</a></font>&nbsp;&nbsp;&nbsp;
+                    <font size="4"><a href="#contact">Contact</a></font>&nbsp;&nbsp;&nbsp;
+                    <font size="4"><a href="#projects">Projects</a></font>
                 </td>
             </tr>
         </table>
+
     </nav>
 
+    <hr size="5" width="100%" color="#013f43" align="center">
+
+
     <!-- Profile Picture -->
+
     <table align="center" id="about">
         <tr>
-            <td>
-                <h2 id="about" align="center">My Profile</h2>
-                <img src="images/profile-.jpg" alt="My Picture" height="400 "><br>
+            <td align="center">
+                <h2>Hey There,<br> I'm <span style="color: rgb(13, 234, 13);">Rakib</span></h2>
+                <h2 style="text-decoration: underline;">::::About Me::::</h2>
+                <p style="width: 70% ;    ">
+                    Hello! My name is <strong>Rakibul Islam</strong>. I am currently a 3rd-year student at
+                    <strong>Jahangirnagar University</strong>, pursuing my Bachelor's degree.
+                    I have a strong passion for <strong>web development</strong>, and I'm always eager to learn and grow
+                    in the world of technology.
+                    I enjoy solving real-world problems using code, and I’m constantly exploring new tools and
+                    techniques to enhance my skills.
+                    Outside academics, I love <strong>reading</strong>, <strong>traveling</strong>, and expressing
+                    creativity through <strong>photography</strong>.
+                </p>
+                <br>
+                <img src="images/profile-.jpg" alt="My Picture" height="400"><br><br>
                 <strong>Name:</strong> Rakibul Islam<br>
-                <strong>Profession:</strong> Web Developer
+                <h3>
+                <strong>Profession:</strong > <span style="color: rgb(25, 13, 198);">Web Developer</span>
+                    </h3>
             </td>
         </tr>
     </table>
+
     <!-- Contact Form -->
-    <h2 id="contact" align="center">Contact Information</h2>
+    <h2 id="contact" align="center" style="text-decoration: underline;">Contact Information:</h2>
     <form>
         <table border="0" align="center">
             <tr>
                 <td>Name: <br> </td>
 
-                <td><input type="text" name="name" placeholder="Enter your name:"></td>
+                <td><input type="text" name="name" placeholder="Enter name:"></td>
                 < </tr>
 
             <tr>
                 <td>Email:</td>
 
-                <td><input type="email" name="email" placeholder="Enter your e-mail:"></td>
+                <td><input type="email" name="email" placeholder="Enter e-mail:"></td>
             </tr>
             <tr>
                 <td>Message:</td>
@@ -82,7 +99,7 @@
 
 
     <!-- Educational Qualification -->
-    <h2 id="education" align="center">Educational Qualification</h2>
+    <h2 id="education" align="center" style="text-decoration: underline;">Educational Qualification</h2>
 
     <table border="1" width="80%" align="center" cellpadding="10">
         <tr>
@@ -115,30 +132,80 @@
         </tr>
     </table>
 
+    <!-- Projects Section -->
+    <h2 id="projects" align="center" style="text-decoration: underline;" >My Projects</h2>
+    <p align="center" style="width: 80%; margin: auto; font-size: 18px;">
+        Throughout my journey as a web developer, I have built several projects using HTML and CSS to sharpen my skills
+        and bring creative ideas to life.
+        These projects reflect my understanding of responsive design, layout structuring, and user interface
+        development. Below are some of my works hosted on GitHub:
+    </p>
+<br>
+
+
+    <table border="3" width="90%" align="center" cellpadding="10">
+        <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>GitHub Link</th>
+        </tr>
+        <tr>
+            <td>Payoo MFS</td>
+            <td>A mobile financial service landing page with a clean layout, simulating basic payment features and
+                design structure.</td>
+            <td><a href="https://github.com/RakibCSE30/payoo-MFS" target="_blank">Payoo MFS (HTML, CSS)</a></td>
+        </tr>
+        <tr>
+            <td>Nature's Platter</td>
+            <td>A food-based website for a fictional restaurant, featuring elegant sections for menu and services.</td>
+            <td><a href="https://github.com/RakibCSE30/natures-platter" target="_blank">Nature's Platter (HTML, CSS)</a></td>
+        </tr>
+        <tr>
+            <td>Penguin Fashion</td>
+            <td>A responsive fashion brand landing page demonstrating product display and creative UI components.</td>
+            <td><a href="https://github.com/RakibCSE30/penguin-fashion" target="_blank">Penguin Fashion (HTML, CSS)</a></td>
+        </tr>
+        <tr>
+            <td>G3 Website</td>
+            <td>A multi-section website with navigation, services, and contact areas to practice layout structure.</td>
+            <td><a href="https://github.com/RakibCSE30/g3-website" target="_blank">G3 Website (HTML, CSS)</a></td>
+        </tr>
+    </table>
+
+
+
 
     <!-- Hobbies and Interests -->
-<h2 id="interests" align="center">Hobbies and Interests</h2>
+    <h2 id="interests" align="center" style="text-decoration: underline;">Hobbies and Interests</h2>
 
-<div align="center">
-    <ul type="none" >
-        <li>Reading</li>
-        <li>Traveling</li>
-        <li>Coding</li>
-        <li>Photography</li>
-    </ul>
-</div>
+    <div align="center">
+        <ul type="none">
+            <li>Reading</li>
+            <li>Traveling</li>
+            <li>Coding</li>
+            <li>Photography</li>
+        </ul>
+    </div>
 
-<!-- Footer with Social Links -->
-<table border="1" width="100%">
-    <tr>
-        <td align="center">
-            <p>© 2025 Rakibul Islam | Connect with me:</p>
-            <a href="https://www.facebook.com/md.rakibul.islam.287941/about" target="_blank">Facebook</a> |
-            <a href="https://github.com/RakibCSE30" target="_blank">GitHub</a> |
-            <a href="https://x.com" target="_blank">X</a>
-        </td>
-    </tr>
-</table>
+    <hr size="2" width="100%" color="#013f43" align="center">
+
+    <br>
+    <br>
+
+    <!-- Footer with Social Links -->
+    <table border="0" width="100%">
+        <tr>
+            <td align="center">
+                <p>© 2025 Rakibul Islam | Connect with me:</p>
+                <hr size="2" width="30%" color="#013f43" align="center">
+                <a href="https://www.facebook.com/md.rakibul.islam.287941/about" target="_blank">Facebook</a> |
+                <a href="https://github.com/RakibCSE30" target="_blank">GitHub</a> |
+                <a href="https://x.com" target="_blank">X</a>
+            </td>
+        </tr>
+    </table>
+
+    <!-- <hr size="2" width="100%" color="#013f43" align="center"> -->
 
 
 
