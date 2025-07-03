@@ -16,58 +16,106 @@
 
     <h1 align="center">Welcome to the My Portfolio page </h1>
     <nav>
-    <table align="center" border="0">
-        <tr>
-            <td><font size="6"><a href="about.html">About Me</a></font></td>
-             <!-- three non-breaking spaces -->
-            <td>&nbsp;&nbsp;&nbsp;</td>
-            <td><font size="6"><a href="education.html">Education</a></font></td>
-            <td>&nbsp;&nbsp;&nbsp;</td>
-            <td><font size="6"><a href="contact.html">Contact</a></font></td>
-            <td>&nbsp;&nbsp;&nbsp;</td>
-            <td><font size="6"><a href="services.html">services</a></font></td>
-        </tr>
-    </table>
-</nav>
+        <table align="center" border="0">
+            <tr>
+                <td>
+                    <font size="6"><a href="#about">About Me</a></font>
+                </td>
+                <!-- three non-breaking spaces -->
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <font size="6"><a href="#education">Education</a></font>
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <font size="6"><a href="#contact">Contact</a></font>
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <font size="6"><a href="#services">services</a></font>
+                </td>
+            </tr>
+        </table>
+    </nav>
 
- <!-- Profile Picture -->
-    <table align="center">
+    <!-- Profile Picture -->
+    <table align="center" id="about">
         <tr>
             <td>
                 <h2 id="about">My Profile</h2>
-                <img   src="images/profile-.jpg" alt="My Picture"  height="400 " ><br>
+                <img src="images/profile-.jpg" alt="My Picture" height="400 "><br>
                 <strong>Name:</strong> Rakibul Islam<br>
                 <strong>Profession:</strong> Web Developer
             </td>
         </tr>
     </table>
     <!-- Contact Form -->
-    <h2 id="contact " align="center">Contact Information</h2>
+    <h2 id="contact" align="center">Contact Information</h2>
     <form>
-    <table border="0" align="center">
+        <table border="0" align="center">
+            <tr>
+                <td>Name: <br> </td>
+
+                <td><input type="text" name="name" placeholder="Enter your name:"></td>
+                < </tr>
+
+            <tr>
+                <td>Email:</td>
+
+                <td><input type="email" name="email" placeholder="Enter your e-mail:"></td>
+            </tr>
+            <tr>
+                <td>Message:</td>
+
+                <td><textarea name="message" rows="4" cols="30" placeholder="Text-Me:"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Send"></td>
+            </tr>
+        </table>
+    </form>
+
+
+
+
+
+
+    <!-- Educational Qualification -->
+    <h2 id="education" align="center">Educational Qualification</h2>
+
+    <table border="1" width="80%" align="center" cellpadding="10">
         <tr>
-            <td>Name: <br> </td>
-           
-            <td><input type="text" name="name" placeholder="Enter your name:" ></td>
-            <
+            <th>Degree</th>
+            <th>Institute</th>
+            <th>Year</th>
+            <th>Board</th>
+            <th>GPA/Grade</th>
         </tr>
-         
         <tr>
-            <td>Email:</td>
-             
-            <td><input type="email" name="email" placeholder="Enter your e-mail:"></td>
+            <td>B.Sc (Running - 3rd Year)</td>
+            <td>Jahangirnagar University</td>
+            <td>2022 - Present</td>
+            <td>--</td>
+            <td>--</td>
         </tr>
         <tr>
-            <td>Message:</td>
-         
-            <td><textarea name="message" rows="4" cols="30" placeholder="Text-Me:"></textarea></td>
+            <td>HSC</td>
+            <td>College of Finance & Management</td>
+            <td>2020</td>
+            <td>Dhaka</td>
+            <td>5.00</td>
         </tr>
         <tr>
-            <td></td>
-            <td><input type="submit" value="Send"></td>
+            <td>SSC</td>
+            <td>Mirzapur High School</td>
+            <td>2018</td>
+            <td>Rangpur</td>
+            <td>5.00</td>
         </tr>
     </table>
-</form>
+
+
 
 
 
